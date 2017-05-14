@@ -1,0 +1,16 @@
+{
+  "name": "tmbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "log4js": "^1.1.1",
+    "node-emoji": "^1.5.1",
+    "node-telegram-bot-api": "^0.27.1",
+    "request": "^2.81.0",
+    "underscore": "^1.8.3"
+  }
+}
