@@ -42,7 +42,7 @@ exports.Run = function(config,api,logger,callback){
             let item = api.get(fromId).menu_item;
             if(item === 'start' && msg.text !== 'Представьтесь, пожалуйста') {
             	api.get(fromId).name = msg.text;
-            	bot.sendMessage(chatId,`Приятно познакомиться, бот A011.`,menu.main);
+            	bot.sendMessage(chatId,`Приятно познакомиться, ${msg.text}`,menu.main);
         		api.get(fromId).menu_item = 'main';
         		return;
              }
